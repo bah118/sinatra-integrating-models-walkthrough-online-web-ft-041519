@@ -11,4 +11,9 @@ class App < Sinatra::Base
 
     erb :results
   end
+  
+  post '/displays' do
+    
+  end
+  
 end
